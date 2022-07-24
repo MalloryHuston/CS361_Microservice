@@ -26,6 +26,14 @@ def search():
     clear()
     # Output Wikipedia Results to Textbox
     my_text.insert(0.0, data.content)
+    
+
+# Write to File
+def writeFile():
+    fileName = input("Article name: ") + ".txt"
+    file = open(fileName, 'a+')
+    file.write(my_text.get("1.0", 'end-1c') + '\n')
+    file.close()
 
 
 my_label_frame = LabelFrame(root, text="Search Category")
@@ -65,5 +73,8 @@ search_button.grid(row=0, column=0, padx=20)
 
 clear_button = Button(button_frame, text="Clear", font=("Helvetica", 32), fg="#3a3a3a", command=clear)
 clear_button.grid(row=0, column=1)
+
+write_button = Button(button_frame, text="Write to File", font=("Helvetica", 32), fg="#3a3a3a", command=writeFile)
+write_button.grid(row=0, column=2)
 
 root.mainloop()
