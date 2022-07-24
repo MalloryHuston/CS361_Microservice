@@ -6,6 +6,9 @@ Wikipedia Scraper for Game Development Guide Microservice
 I will have others request data from my microservice by simply typing in a keyword into the interface’s search engine. It would then match up with the closest-matching Wikipedia article. Here is an example call:
 
 ```
+from tkinter import *
+import wikipedia as wiki
+
 # Clear
 def clear():
     my_entry.delete(0, END)
