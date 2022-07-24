@@ -1,3 +1,9 @@
+# Title: Wikipedia Scraper
+# Class: CS 361 - Software Engineering I
+# Author: Mallory Huston
+# Description: A wikipedia scraper microservice that pulls up any information of a
+#              category of your choosing.
+
 from tkinter import *
 import wikipedia as wiki
 
