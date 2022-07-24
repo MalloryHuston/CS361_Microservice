@@ -28,4 +28,14 @@ def search():
 ### How to RECEIVE Data
 On the same file, there is a function that will gather all of the headings and details of the article from the Wikipedia URL that the user requested. All the user must do is type their keywords in the search engine and the appropriate data should appear on the screen. Said data will also go into a .txt file that the user gets to name of their choice.
 
+```
+# Write to File
+def writeFile():
+    fileName = input("Article name: ") + ".txt"
+    file = open(fileName, 'a+')
+    file.write(my_text.get("1.0", 'end-1c') + '\n')
+    file.close()
+
+```
+
 ### UML Sequence Diagram
