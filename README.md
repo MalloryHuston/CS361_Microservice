@@ -3,7 +3,7 @@ Wikipedia Scraper for Game Development Guide Microservice
 -----------------------------------------------------
 
 ### How to REQUEST Data
-I will have others request data from my microservice by simply typing in a keyword into the interface’s search engine. It would then match up with the closest-matching Wikipedia article. Here is an example call:
+Users can request data from this microservice by simply typing in a keyword into the interface’s search engine. It would then match up with the closest-matching Wikipedia article. Here is an example call:
 
 ```
 from tkinter import *
@@ -26,6 +26,6 @@ def search():
 
 
 ### How to RECEIVE Data
-On the same file, there is a function that will gather all the headings and details of the article from the Wikipedia URL that the user requested. All the user must do is type their keywords in the search engine and the appropriate data should appear on the screen.
+On the same file, there is a function that will gather all of the headings and details of the article from the Wikipedia URL that the user requested. All the user must do is type their keywords in the search engine and the appropriate data should appear on the screen. Said data will also go into a .txt file that the user gets to name of their choice.
 
 ### UML Sequence Diagram
