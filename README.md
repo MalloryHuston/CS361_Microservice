@@ -39,3 +39,7 @@ def writeFile():
 ```
 
 ### UML Sequence Diagram
+![UML Diagram](./UML.png)
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+![image](https://user-images.githubusercontent.com/55804897/180672709-2f1dadd8-4eee-4a1a-b7f6-3f80e824e781.png)
