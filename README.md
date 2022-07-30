@@ -4,7 +4,6 @@ Wikipedia Scraper for Game Development Guide Microservice
 ### Python Packages to Install
 Open up Terminal.
 ```
-pip install tkinter
 pip install wikipedia
 ```
 
