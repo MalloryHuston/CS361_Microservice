@@ -36,6 +36,7 @@ def writeFile():
     file.write(my_text.get("1.0", 'end-1c') + '\n')
     file.close()
 
+>>> Article name: [write down title here]
 ```
 
 ### UML Sequence Diagram
