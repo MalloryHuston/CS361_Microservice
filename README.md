@@ -1,11 +1,17 @@
 -----------------------------------------------------
 Wikipedia Scraper for Game Development Guide Microservice
 -----------------------------------------------------
+### Python Packages to Install
+Open up Terminal.
+```
+pip install tkinter
+pip install wikipedia
+```
 
 ### How to Start Microservice
-Start the service in terminal.
+Start the service in Terminal.
 ```
-python3 wiki.py
+python wiki.py
 ```
 ### How to REQUEST Data
 Users can request data from this microservice by simply typing in a keyword into the interface’s search engine. It would then match up with the closest-matching Wikipedia article. Here is an example call:
@@ -34,7 +40,7 @@ def search():
 
 
 ### How to RECEIVE Data
-On the same file, there is a function that will gather all of the headings and details of the article from the Wikipedia URL that the user requested. All the user must do is type their keywords in the search engine and the appropriate data should appear on the screen. Said data will also go into a .txt file that the user gets to name of their choice.
+On the same file, there is a function that will gather all of the headings and details of the article from the Wikipedia URL that the user requested. All the user must do is type their keywords in the search engine and the appropriate data should appear on the screen. Said data will also go into a .txt file that the user gets to name of their choice. All .txt. files will go to the ```./information``` directory.
 
 ```
 # Write to File
