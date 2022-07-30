@@ -28,6 +28,7 @@ def search():
     # Output Wikipedia Results to Textbox
     my_text.insert(0.0, data.content)
     
+    
 >>> [wiki] Pulling information from {data.title}
 ```
 
@@ -42,6 +43,7 @@ def writeFile():
     file = open(fileName, 'a+')
     file.write(my_text.get("1.0", 'end-1c') + '\n')
     file.close()
+
 
 >>> Article name: {write your custom title here}
 ```
