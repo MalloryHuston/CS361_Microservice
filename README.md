@@ -28,7 +28,7 @@ def search():
     # Output Wikipedia Results to Textbox
     my_text.insert(0.0, data.content)
     
-[wiki] Pulling information from {data.title}
+>>> [wiki] Pulling information from {data.title}
 ```
 
 
