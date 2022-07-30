@@ -9,7 +9,6 @@ import wikipedia as wiki
 
 root = Tk()
 root.title('Game Development Guide - Category Wikipedia')
-root.iconbitmap('/Users/malpal101/PyCharmProjects/WikipediaMicro/img/favicon.ico')
 root.geometry("700x675")
 
 
