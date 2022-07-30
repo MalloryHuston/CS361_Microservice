@@ -7,7 +7,6 @@ Start the service in terminal.
 ```
 python3 wiki.py
 ```
-
 ### How to REQUEST Data
 Users can request data from this microservice by simply typing in a keyword into the interface’s search engine. It would then match up with the closest-matching Wikipedia article. Here is an example call:
 
