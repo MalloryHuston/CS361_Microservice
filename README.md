@@ -17,9 +17,6 @@ python wiki.py
 Users can request data from this microservice by simply typing in a keyword into the interface’s search engine. It would then match up with the closest-matching Wikipedia article. Here is an example call:
 
 ```
-from tkinter import *
-import wikipedia as wiki
-
 # Clear
 def clear():
     my_entry.delete(0, END)
@@ -45,8 +42,12 @@ On the same file, there is a function that will gather all of the headings and d
 ```
 # Write to File
 def writeFile():
-    fileName = input("Article name: ") + ".txt"
-    file = open(fileName, 'a+')
+    save_path = './information'
+    file_name = input("Article name: ") + ".txt"
+    # Saving .txt file to the /information directory
+    completeName = os.path.join(save_path, file_name)
+    file = open(completeName, "a+")
+    # Output Wikipedia Results to .txt file 
     file.write(my_text.get("1.0", 'end-1c') + '\n')
     file.close()
 
